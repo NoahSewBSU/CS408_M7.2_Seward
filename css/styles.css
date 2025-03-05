@@ -74,7 +74,7 @@ body {
   }
 
   aside {
-    margin: 5px;
-    padding: 5px;
     column-count: 2;
+    justify-content: space-around;
+    align-items: center;
   }
