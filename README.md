@@ -1,10 +1,8 @@
 # web-dev-starter
 
-This is a starter project for web development with no frameworks and minimal
-dependencies. It is intended to be a starting point for web development projects
-that are written in plain HTML, CSS, and JavaScript.
+This is a practice assignment for understanding layouts in CSS. In this case, I went with the flexbox as my resolution for the given tasks.
 
-## Getting Started
+## Getting Started / Running
 
 To get started, clone this repository and run the following commands:
 
@@ -12,6 +10,8 @@ To get started, clone this repository and run the following commands:
 npm install
 ```
 This will install the necessary dependencies for the project.
+
+To run this code, simply download the repo to your machine and then access it via VS Code and use Live Preview or find the html file and run it within your local browser.
 
 ## Development
 
@@ -22,8 +22,11 @@ you do not need to setup a local server to run the project.
 
 ## Testing
 
-To run the tests for the project, run the following command:
+There are no tests to run within this project. However, you can stretch the web browser or Preview screen to test the cohesion of the content within the webpage, given varying sizes.
 
-```bash
-npm test
-```
+## References
+
+Wrapping text around images
+https://cloudinary.com/blog/guest_post/handle-text-wrap-around-images-using-html-and-css
+
+
