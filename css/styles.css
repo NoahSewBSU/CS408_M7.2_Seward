@@ -1,4 +1,7 @@
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-color: #fff;
     color: #333;
     margin: 0;
@@ -6,11 +9,16 @@ body {
   }
 
   img {
-      max-width: 100%;
-      display: block;
+    margin: 1px;
+    max-width: 100%;
+    display: block;
   }
   
   .logo {
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+    color: #fff;
     font-size: 200%;
     padding: 50px 20px;
     margin: 0 auto;
@@ -24,8 +32,14 @@ body {
   }
   
   nav {
+    column-count: 5;
+    column-gap: 20px;
     background-color: #000;
     padding: .5em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
   }
   
   nav ul {
@@ -47,5 +61,20 @@ body {
   }
 
   .feature {
-      width: 200px;
+    float: left;
+    margin: 5px;
+    position: relative;
+    width: 200px;
+  }
+
+  article {
+    margin: 5px;
+    padding: 5px;
+    column-count: 2;
+  }
+
+  aside {
+    margin: 5px;
+    padding: 5px;
+    column-count: 2;
   }
